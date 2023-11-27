@@ -24,11 +24,13 @@ function MainPage() {
                 <div className="wrapper">
                     <div className="s2">
                         <h2>Фитнес на современных условиях</h2>
-                        <Cards/>
+                        <Cards data={['СПА и зона отдыха', 'PRO оборудование', 'Индивидуальные абонементы', 'Программа лояльности']}/>
                     </div>
                 </div>
-                <div className="slider">
-                    <SimpleSlider/>
+                <div className="wrapper">
+                    <div className="slider">
+                        <SimpleSlider/>
+                    </div>
                 </div>
             <Footer/>
         </>

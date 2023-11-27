@@ -1,10 +1,7 @@
-function Cards() {
+function Cards({data}) {
     return ( 
         <div className="cards-block">
-            <div className="card"></div>
-            <div className="card"></div>
-            <div className="card"></div>
-            <div className="card"></div>
+            {data.map(h=><div className="card"><h3>{h}</h3></div>)}
         </div>
      );
 }

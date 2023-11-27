@@ -1,11 +1,13 @@
 @import './nullStyles';
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap');
 @import './Header.scss';
 @import './Footer.scss';
 @import './infografic.scss';
 @import './cards.scss';
 @import './quiz.scss';
 @import './slide.scss';
+@import './simpleSlider.scss';
+
 body{
     font-family: 'Inter', sans-serif;
 }

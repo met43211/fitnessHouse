@@ -10,7 +10,7 @@ function SubscriptionPage() {
             <Header/>
                 <div className="wrapper">
                     <div className="s1">
-                        <Cards/>
+                        <Cards data={['Бассейн', 'Тренажерный зал', 'Групповые занятия', 'Зал растяжки']}/>
                     </div>
                 </div>
                 <div className="wrapper s2-wrapper">
