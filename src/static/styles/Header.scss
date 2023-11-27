@@ -1,0 +1,33 @@
+.header-wrapper{
+    background-color: rgba(5, 19, 84, 1);
+    header{
+        max-width: 1440px;
+        padding: 20px 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        nav{
+            a{
+                margin: 0px 14px;
+                color: rgba(255, 255, 255, 1);
+                text-decoration: none;
+                font-weight: 500;
+                font-size: 25px;
+            }
+            a:hover{
+                color: rgba(76, 131, 207, 1);
+            }
+        }
+        .header-right{
+            display: flex;
+            .socials{
+                display: flex;
+                align-items: center;
+                a{
+                    margin: 0 10px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,82 @@
+.footer-wrapper{
+    background-color: rgb(36, 36, 36);
+    footer{
+        max-width: 1440px;
+        margin: 30px 30px;
+        width: 100%;
+        color: white;
+        a{
+            text-decoration: none;
+        }
+        .footer-top{
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            align-items: center;
+            .footer-left{
+                img{
+                    width: 60%;
+                }
+                p{
+                    font-weight: 500;
+                    font-size: 25px;
+                    margin-top: 5px;
+                }
+            }
+            .footer-right{
+                font-weight: 500;
+                font-size: 20px;
+                .socials{
+                    display: flex;
+                    margin: 15px 0;
+                    .footer-social{
+                        padding: 5px 5px;
+                        border: 2px solid white;
+                        width: fit-content;
+                        margin-right: 10px;
+                        border-radius: 5px;
+                    }
+                }
+                p{
+                    margin-bottom: 10px;
+                }
+            }
+        }
+        .footer-line{
+            margin: 30px 0;
+            width: 100%;
+            height: 2px;
+            background-color: white;
+        }
+        .footer-bottom{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .footer-left{
+                a{
+                    margin-right: 10px;
+                }
+            }
+            .footer-pre-left{
+                a{
+                    font-size: 16px;
+                    color: #F0E68C;
+                }
+            }
+            .footer-pre-right{
+                a{
+                    font-size: 16px;
+                    color: white;
+                }
+            }
+            .footer-right{
+                p{
+                    font-weight: 500;
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+}
