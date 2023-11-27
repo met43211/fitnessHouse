@@ -8,13 +8,14 @@
     height: 100vh;
 }
 .burger-menu-button{
+    display: none;
     z-index: 150;
     margin-right: 30px;
     font-size: 20px;
     font-weight: 600;
     border: none;
     border-radius: 100px;
-    padding: 10px 20px;
+    padding: 10px 10px;
     background-color: lightskyblue;
     color: white;
     cursor: pointer;
@@ -53,11 +54,16 @@
     }
 
 }
+@media(max-width:768px){
+    .burger-menu-button{
+        display: block;
+    }
+}
 @media(max-width: 320px){
     .burger-menu-button{
         margin-right: 10px;
         font-size: 14px;
-        padding: 5px 10px;
+        padding: 5px 5px;
     }
     .burger-menu{
         width: 60%;
