@@ -6,8 +6,8 @@ import vk from '../static/assets/vk.png'
 
 function Header() {
     return (
-        <div className="wrapper header-wrapper">
-            <header index='top'>
+        <div className="wrapper header-wrapper"  id='top'>
+            <header>
                 <div className="header-left">
                     <Link to='/fitnessHouse'>
                         <img src={Logo} alt="logo" />

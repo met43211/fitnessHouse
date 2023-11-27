@@ -36,8 +36,16 @@
         color: rgba(5, 19, 84, 1);
         margin-bottom: 35px;
     }
-    .slider{
-        max-width: 100%;
-        overflow: hidden;
-    }
 }
+
+.slider-cover{
+    position: absolute;
+    width: 100%;
+    max-width: 1440px;
+    height:700px;
+    background-color: rgba(128, 198, 242, 0.3);
+    z-index: 10px;
+    margin-bottom: -150px;
+}
+
+

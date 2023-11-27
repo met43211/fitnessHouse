@@ -3,6 +3,7 @@ import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import Infografic from "../../components/Infografic";
 import SimpleSlider from "../../components/SimpleSlider";
+import TopButton from "../../components/TopButton";
 import s1Img from '../../static/assets/s1Img.png';
 import './MainPage.scss'
 
@@ -31,8 +32,10 @@ function MainPage() {
                     <div className="slider">
                         <SimpleSlider/>
                     </div>
+                    <div className="slider-cover"></div>
                 </div>
             <Footer/>
+            <TopButton/>
         </>
      );
 }

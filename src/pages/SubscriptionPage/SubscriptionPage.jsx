@@ -44,6 +44,7 @@ function SubscriptionPage() {
                     </div>
                 </div>
             <Footer/>
+            <TopButton/>
         </>
     );
 }
