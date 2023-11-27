@@ -43,7 +43,7 @@ function Quiz() {
                 />}
                 {quize===5&&
                 <form>
-                    <input type="number" placeholder="Введите ваш номер"/>
+                    <input type="tel" placeholder="Введите ваш номер"/>
                     <button className="send">Отправить</button>
                 </form>
                 }
