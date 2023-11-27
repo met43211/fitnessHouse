@@ -3,6 +3,7 @@ import Logo from '../static/assets/Logo.png'
 import phone from '../static/assets/phone.png'
 import telegram from '../static/assets/telegram.png'
 import vk from '../static/assets/vk.png'
+import Burger from "./Burger";
 
 function Header() {
     return (
@@ -14,7 +15,7 @@ function Header() {
                     </Link>
                 </div>
                 <nav className="header-middle">
-                    <Link to='./subscription'>Абонементы</Link>
+                    <Link to='/fitnessHouse/subscription'>Абонементы</Link>
                     <Link>Расписание</Link>
                     <Link>Тренеры</Link>
                     <Link>Клубы</Link>
@@ -32,6 +33,7 @@ function Header() {
                         </a>
                     </div>
                 </div>
+                <Burger/>
             </header>
         </div>
      );

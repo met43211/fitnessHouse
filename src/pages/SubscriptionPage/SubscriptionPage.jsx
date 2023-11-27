@@ -2,6 +2,7 @@ import Cards from "../../components/Cards";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import Quiz from "../../components/Quiz";
+import TopButton from "../../components/TopButton";
 import './SubscriptionPage.scss'
 
 function SubscriptionPage() {

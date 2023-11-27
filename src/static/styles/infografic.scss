@@ -43,3 +43,44 @@
         border-top: 2px solid white;
     }
 }
+@media(max-width: 320px){
+    .info{
+        width: 300px;
+        padding: 20px 0;
+        div{
+            width: 100%;
+            margin: 0 10px;
+            padding: 10px 0;
+            .sector-top{
+                h2{
+                    font-size: 40px;
+                }
+                img{
+                    height: 40px;
+                }
+            }
+            p{
+                font-size: 14px;
+                margin-bottom: 15px;
+            }
+        }
+        .info-top-left{
+            border-right: none;
+        }
+        .info-top-right{
+            border-left: none;
+        }
+        .info-bottom-left{
+            border-bottom: 2px solid white;
+        }
+        .info-bottom-left{
+            border-right: none;
+            border-top: none;
+            border-bottom: 2px solid white;
+        }
+        .info-bottom-right{
+            border-left: none;
+            border-top: none;
+        }
+    }
+}
