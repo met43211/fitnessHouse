@@ -44,10 +44,17 @@ function Quiz() {
                 {quize===5&&
                 <form>
                     <input type="tel" placeholder="Введите ваш номер"/>
-                    <button className="send">Отправить</button>
+                    <button className="send" onClick={
+                        (e)=>{
+                            e.preventDefault()
+                            setQuize(prev=>prev+=1)
+                        }
+                    }>Отправить</button>
                 </form>
                 }
-                {quize!=5&&<div className="progress">
+                {quize===6&&
+                    <h2>Спасибо за ваш ответ!</h2>}
+                {quize<5&&<div className="progress">
                     <div className="one"></div>
                     <div className={quize>0&&'two'}></div>
                     <div className={quize>1&&'three'}></div>
@@ -55,7 +62,7 @@ function Quiz() {
                     <div className={quize>3&&'five'}></div>
                 </div>}
                 {
-                    quize!=5&&
+                    quize<5&&
                     <button className={`btn-${quize}`} onClick={()=>setQuize((prev)=>prev+1)}>Далее</button>
                 }
         </div>
