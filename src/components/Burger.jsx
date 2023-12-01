@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import phone from '../static/assets/phone.png'
 import telegram from '../static/assets/telegram.png'
 import vk from '../static/assets/vk.png'
