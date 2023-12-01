@@ -2,11 +2,14 @@
     background-color: rgba(157, 200, 191, 1);
     header{
         max-width: 1440px;
-        padding: 20px 30px;
+        padding: 20px 0;
         display: flex;
         justify-content: space-between;
         align-items: center;
         width: 100%;
+        .header-left{
+            margin-left: 30px;
+        }
         nav{
             a{
                 margin: 0px 14px;
@@ -24,6 +27,7 @@
         }
         .header-right{
             display: flex;
+            margin-right: 30px;
             .socials{
                 display: flex;
                 align-items: center;
@@ -34,7 +38,7 @@
         }
     }
 }
-@media(max-width: 768px){
+@media(max-width: 1199px){
     .header-wrapper{
         header{
             padding-left: 0;
@@ -51,7 +55,7 @@
         }
     }
 }
-@media(max-width: 450px){
+@media(max-width: 790px){
     .header-wrapper{
         header{
             .header-left{

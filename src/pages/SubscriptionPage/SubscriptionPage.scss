@@ -29,16 +29,16 @@
     align-items: center;
     padding: 50px 0 60px 0;
     h2{
-        color: rgba(5, 19, 84, 1);
+        color: rgba(11, 51, 42, 1);
         margin-bottom: 10px;
     }
     p{
         font-size: 25px;
         font-weight: 300px;
-        color: rgba(5, 19, 84, 1);
+        color: rgba(11, 51, 42, 1);
     }
 }
-@media(max-width: 768px){
+@media(max-width: 1199px){
     .s2-wrapper{
         .s2{
             h2{
@@ -62,7 +62,7 @@
         }
     }
 }
-@media(max-width: 450px){
+@media(max-width: 790px){
     .s3{
         max-width: 320px;
     }

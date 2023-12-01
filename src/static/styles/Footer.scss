@@ -31,7 +31,19 @@
         }
     }
 }
-@media(max-width: 768px){
+@media(max-width: 1500px){
+    .footer-wrapper{
+        footer{
+            .footer-left{
+                margin-left: 30px;
+            }
+            .footer-right{
+                margin-right: 30px;
+            }
+        }
+    }
+}
+@media(max-width: 1199px){
     .footer-wrapper{
         overflow: hidden;
         footer{
@@ -54,7 +66,7 @@
         }
     }
 }
-@media(max-width: 450px){
+@media(max-width: 790px){
     .footer-wrapper{
         footer{
             .footer-left{

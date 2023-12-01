@@ -12,6 +12,10 @@
         font-size: 20px;
         font-weight: 500px;
     }
+    .table{
+        max-height: 600px;
+        overflow: auto;
+    }
 }
 .wrapper-s2{
     background-color: #c0f4ea;
@@ -82,7 +86,7 @@
         }
     }
 }
-@media(max-width:768px){
+@media(max-width:1199px){
     .s1{
         h1{
             margin-left: 30px;
@@ -105,7 +109,7 @@
         align-items: center;
     }
 }
-@media(max-width:450px){
+@media(max-width:790px){
     .s1{
         h1{
             margin-bottom: 20px;

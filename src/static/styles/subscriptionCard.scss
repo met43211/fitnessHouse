@@ -42,12 +42,12 @@
 .card:hover > .card-back{
     transform: perspective(600px) rotateY(0deg);
 }
-@media(max-width: 768px){
+@media(max-width: 1199px){
     .card{
         margin: 30px;
     }
 }
-@media(max-width: 450px){
+@media(max-width: 790px){
     .card{
         width: 280px;
         height: 250px;

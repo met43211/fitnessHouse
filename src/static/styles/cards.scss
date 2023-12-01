@@ -59,7 +59,7 @@
         background-color: rgba(193, 245, 234, 0.6);
     }
 }
-@media(max-width: 768px){
+@media(max-width: 1199px){
     .cards-block{
         flex-wrap: wrap;
         justify-content: center;
@@ -68,7 +68,7 @@
         }
     }
 }
-@media(max-width: 450px){
+@media(max-width: 790px){
     .cards-block{
         h3{
             font-size: 14px;

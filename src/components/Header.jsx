@@ -22,7 +22,7 @@ function Header() {
                 </nav>
                 <div className="header-right">
                     <div className="phone">
-                        <img src={phone} alt="phoneIcon" />
+                        <a href="tel:+78126100606"><img src={phone} alt="phoneIcon" /></a>
                     </div>
                     <div className="socials">
                         <a href="">
