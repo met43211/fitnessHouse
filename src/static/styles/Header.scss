@@ -1,5 +1,5 @@
 .header-wrapper{
-    background-color: rgba(5, 19, 84, 1);
+    background-color: rgba(157, 200, 191, 1);
     header{
         max-width: 1440px;
         padding: 20px 30px;
@@ -16,7 +16,10 @@
                 font-size: 25px;
             }
             a:hover{
-                color: rgba(76, 131, 207, 1);
+                color: rgba(11, 51, 42, 1);
+            }
+            .active{
+                color: rgba(51, 130, 115, 1)
             }
         }
         .header-right{

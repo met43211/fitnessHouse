@@ -15,24 +15,24 @@ function Infografic() {
             </div>
             <div className="info-top-right">
                 <div className="sector-top">
-                    <h2>300+ </h2>
+                    <h2>20</h2>
                     <img src={info2}/>
                 </div>
                 <p>ПРОФЕССИОНАЛЬНЫХ ТРЕНЕРОВ</p>
             </div>
             <div className="info-bottom-left">
                 <div className="sector-top">
-                    <h2>50</h2>
+                    <h2>2</h2>
                     <img src={info3}/>
                 </div>
-                <p>КЛУБОВ В СПБ</p>
+                <p>КАБИНЕТА МАССАЖА</p>
             </div>
             <div className="info-bottom-right">
                 <div className="sector-top">
-                    <h2>2000+</h2>
+                    <h2>200</h2>
                     <img src={info4}/>
                 </div>
-                <p>ПОСЕТИТЕЛЕЙ ЕЖЕДНЕВНО ВЫБИРАЮТ НАС</p>
+                <p>ПОСЕТИТЕЛЕЙ ЕЖЕДНЕВНО</p>
             </div>
         </div>
      );

@@ -1,8 +1,10 @@
-import Cards from "../../components/Cards";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import Quiz from "../../components/Quiz";
+import Section from "../../components/Section";
+import SubscriptionCard from "../../components/SubscriptionCard";
 import TopButton from "../../components/TopButton";
+import { sectionsData, subscriptionScrdsData } from "../../data";
 import './SubscriptionPage.scss'
 
 function SubscriptionPage() {
@@ -10,26 +12,13 @@ function SubscriptionPage() {
         <>
             <Header/>
                 <div className="wrapper">
-                    <div className="s1">
-                        <Cards data={['Бассейн', 'Тренажерный зал', 'Групповые занятия', 'Зал растяжки']}/>
-                    </div>
+                    {sectionsData.map(obj=><Section img={obj.img} h={obj.h} p={obj.p} reverse={obj.reverse}/>)}
                 </div>
                 <div className="wrapper s2-wrapper">
                     <div className="s2">
-                        <h2>Абонементы сети клубов</h2>
-                        <div className="pic-block">
-                            <div className="img">
-                                <img src="" />
-                            </div>
-                            <div className="img">
-                                <img src="" />
-                            </div>
-                            <div className="img">
-                                <img src="" />
-                            </div>
-                            <div className="img">
-                                <img src="" />
-                            </div>
+                        <h2>Абонементы Волны</h2>
+                        <div className="s2-cards">
+                            {subscriptionScrdsData.map(obj=><SubscriptionCard h={obj.h} price={obj.price} p={obj.p}/>)}
                         </div>
                     </div>
                 </div>
@@ -45,7 +34,7 @@ function SubscriptionPage() {
                     </div>
                 </div>
             <Footer/>
-            <TopButton/>
+            {/* <TopButton/> */}
         </>
     );
 }

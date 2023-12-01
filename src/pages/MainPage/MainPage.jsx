@@ -4,6 +4,7 @@ import Header from "../../components/Header";
 import Infografic from "../../components/Infografic";
 import SimpleSlider from "../../components/SimpleSlider";
 import TopButton from "../../components/TopButton";
+import { cardsData } from "../../data";
 import s1Img from '../../static/assets/s1Img.png';
 import './MainPage.scss'
 
@@ -25,17 +26,16 @@ function MainPage() {
                 <div className="wrapper">
                     <div className="s2">
                         <h2>Фитнес на современных условиях</h2>
-                        <Cards data={['СПА и зона отдыха', 'PRO оборудование', 'Индивидуальные абонементы', 'Программа лояльности']}/>
+                        <Cards data={cardsData}/>
                     </div>
                 </div>
                 <div className="wrapper">
                     <div className="slider">
                         <SimpleSlider/>
                     </div>
-                    <div className="slider-cover"></div>
                 </div>
             <Footer/>
-            <TopButton/>
+            {/* <TopButton/> */}
         </>
      );
 }

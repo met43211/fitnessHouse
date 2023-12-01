@@ -19,10 +19,10 @@ function Burger() {
                 </div>
                 <div className="burger-menu">
                     <nav className="links">
-                        <Link to='/fitnessHouse/subscription'>Абонементы</Link>
-                        <Link>Расписание</Link>
-                        <Link>Тренеры</Link>
-                        <Link>Клубы</Link>
+                        <NavLink to='/fitnessHouse/subscription' activeClassName="active">Абонементы</NavLink>
+                        <NavLink to='/fitnessHouse/schedule' activeClassName="active">Расписание</NavLink>
+                        <NavLink to='/fitnessHouse/coaches' activeClassName="active">Тренеры</NavLink>
+                        <NavLink to='/fitnessHouse/contacts' activeClassName="active">Контакты</NavLink>
                     </nav>
                     <div className="contacts">
                         <div className="phone">

@@ -1,5 +1,5 @@
 .main-s1-wrapper{
-    background-color: #caeeff;
+    background-color: #c0f4ea;
     .s1{
         width: 100%;
         max-width: 1200px;
@@ -18,7 +18,7 @@
         }
         .s1-right{
             h1{
-                color: rgba(5, 19, 84, 1);
+                color: #338273;
                 margin-bottom: 10px;
             }
         }
@@ -33,7 +33,7 @@
     align-items: center;
     flex-direction: column;
     h2{
-        color: rgba(5, 19, 84, 1);
+        color: #0B332A;
         margin-bottom: 35px;
     }
 }
@@ -43,7 +43,7 @@
     width: 100%;
     max-width: 1440px;
     height:700px;
-    background-color: rgba(128, 198, 242, 0.3);
+    background-color: rgba(193, 245, 234, 0.6);
     z-index: 10px;
     margin-top: 50px
 }
@@ -57,7 +57,6 @@
                 display: flex;
                 flex-direction: column;
                 h1{
-                    color: rgba(5, 19, 84, 1);
                     margin-bottom: 10px;
                 }
             }

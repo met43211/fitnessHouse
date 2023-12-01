@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import Logo from '../static/assets/Logo.png'
 import phone from '../static/assets/phone.png'
 import telegram from '../static/assets/telegram.png'
@@ -10,15 +10,15 @@ function Header() {
         <div className="wrapper header-wrapper"  id='top'>
             <header>
                 <div className="header-left">
-                    <Link to='/fitnessHouse'>
+                    <NavLink to='/fitnessHouse'>
                         <img src={Logo} alt="logo" />
-                    </Link>
+                    </NavLink>
                 </div>
                 <nav className="header-middle">
-                    <Link to='/fitnessHouse/subscription'>Абонементы</Link>
-                    <Link>Расписание</Link>
-                    <Link>Тренеры</Link>
-                    <Link>Клубы</Link>
+                    <NavLink to='/fitnessHouse/subscription' activeClassName="active">Абонементы</NavLink>
+                    <NavLink to='/fitnessHouse/schedule' activeClassName="active">Расписание</NavLink>
+                    <NavLink to='/fitnessHouse/coaches' activeClassName="active">Тренеры</NavLink>
+                    <NavLink to='/fitnessHouse/contacts' activeClassName="active">Контакты</NavLink>
                 </nav>
                 <div className="header-right">
                     <div className="phone">
