@@ -1,6 +1,6 @@
 .wrapper-s1{
     background-color: #c0f4ea;
-    .s1{
+    .s1-contacts{
         width: 100%;
         max-width: 1200px;
         padding: 60px 0;
@@ -108,6 +108,7 @@
             input{
                 width: 15px;
                 height: 15px;
+                cursor: pointer;
             }
         }
         button{
@@ -126,9 +127,14 @@
 }
 @media(max-width:1199px){
     .wrapper-s1{
-        .s1{
+        .s1-contacts{
+            align-items: flex-start!important;
             h1{
                 align-self: flex-start;
+                margin-left: 30px;
+            }
+            p{
+                margin-left: 30px;
             }
             display: flex;
             flex-direction: column;
@@ -137,6 +143,7 @@
             .map{
                 height: 400px;
                 width: 90%!important;
+                margin-left: 30px;
             }
         }
     }
@@ -155,9 +162,15 @@
 }
 @media(max-width:790px){
     .wrapper-s1{
-        .s1{
+        .s1-contacts{
+            h1{
+                margin-left: 10px;
+                margin-right: 10px;
+            }
             p{
                 font-size: 14px;
+                margin-left: 10px;
+                margin-right: 10px;
             }
             display: flex;
             flex-direction: column;
@@ -166,6 +179,8 @@
             .map{
                 height: 200px;
                 width: 90%!important;
+                margin-left: 10px;
+                margin-right: 10px;
             }
         }
     }

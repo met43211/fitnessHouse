@@ -41,5 +41,22 @@ table{
 @media(max-width:790px){
     table{
         min-width: 1000px;
+        tr{
+            height: 90px;
+            td{
+                height: 90px;
+                width: 90px;
+            }
+            .time{
+                height: 90px;
+                width: 40px;
+            }
+        }
+        .header{
+            height: 40px;
+            td{
+                height: 40px;
+            }
+        }
     }
 }

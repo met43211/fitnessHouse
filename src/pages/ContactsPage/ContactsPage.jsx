@@ -8,7 +8,7 @@ function ContactsPage() {
         <>
             <Header/>
                 <div className="wrapper wrapper-s1">
-                    <div className="s1">
+                    <div className="s1-contacts">
                         <h1>Контакты</h1>
                         <p>Телефон: <a href="tel:+78123375538">(812) 337-55-38</a><br/>Отдел по работе с юр. лицами и образовательными учреждениями: <a href="tel:+78123691283">(812) 369-12-83</a></p>
                         <p>Адрес: 196084, Санкт-Петербург, Московский проспект, д. 150 к. 2<br/>E-mail: <a href="mailo:basseyn.volna@mail.ru">basseyn.volna@mail.ru</a></p>
